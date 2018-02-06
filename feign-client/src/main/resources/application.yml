@@ -9,3 +9,6 @@ eureka:
 spring:
   application:
     name: feign-client-1
+feign:
+  hystrix:
+    enabled: true
