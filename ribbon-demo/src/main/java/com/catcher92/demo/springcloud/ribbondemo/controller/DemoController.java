@@ -14,6 +14,6 @@ public class DemoController {
 
     @GetMapping("/hello")
     public String sayHello(String name) {
-        return demoService.sayHello(name);
+        return "ribbon:"+demoService.sayHello(name);
     }
 }
