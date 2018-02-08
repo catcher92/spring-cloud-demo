@@ -1,0 +1,11 @@
+server:
+  port: 8767
+spring:
+  application:
+    name: config-server-1
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/catcher92/springbootdemo
+          search-paths: src/main/resources
