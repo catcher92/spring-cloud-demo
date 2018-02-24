@@ -1,0 +1,6 @@
+spring:
+  rabbitmq:
+    host: centos00
+management:
+  security:
+    enabled: false
