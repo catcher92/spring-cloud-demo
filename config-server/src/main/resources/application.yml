@@ -9,3 +9,9 @@ spring:
         git:
           uri: https://github.com/catcher92/springbootdemo
           search-paths: src/main/resources
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8771/eureka
