@@ -1,6 +1,13 @@
 spring:
-  rabbitmq:
-    host: centos00
+  cloud:
+    stream:
+      defaultBinder: kafka
+      kafka:
+        binder:
+          brokers:
+            - "centos00"
+          zkNodes:
+            - "centos00"
 management:
   security:
     enabled: false
