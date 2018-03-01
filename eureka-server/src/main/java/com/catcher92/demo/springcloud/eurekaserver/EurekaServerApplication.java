@@ -1,4 +1,4 @@
-package com.catcher92.demo.springcloud.config.eurekaserver;
+package com.catcher92.demo.springcloud.eurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
