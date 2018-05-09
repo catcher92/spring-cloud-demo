@@ -9,3 +9,6 @@ eureka:
 spring:
   application:
     name: eureka-client-1
+management:
+  security:
+    enabled: false
